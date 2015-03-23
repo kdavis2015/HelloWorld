@@ -2,7 +2,6 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
 	xmlns:android   = "http://schemas.android.com/apk/res/android"
-<!-- This is the id app for phonegap -->
         id          = "org.mitre4.HelloWorld"
         version     = "1.0.0" >
 
@@ -12,15 +11,14 @@
         A hello world example app.
     </description>
 
-    <author href="https://github.com/ProfessorKevinForbes/Hello World" email="professorkevinforbes@gmail.com">
-        Kevin Forbes
+    <author href="https://github.com/kdavis2015/HelloWorld.git" email="kdavis@mitre.org">
+        Kevin Davis
     </author>
 
 	<icon src="icon.png" />
 	<gap:splash src="splash.png" />
 
 	<gap:platform name="ios" />
-<!-- This is how you add platform to add stuff.... -->
 	<gap:platform name="android" />
 
 
